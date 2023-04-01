@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/busTicket"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="СТОИМОСТЬ ВЗРОСЛЫХ БИЛЕТОВ:"
+        android:textColor="#008ACA"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/busTicketOut"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#F1EAE2"
+        android:gravity="center"
+        android:hint="Здесь будет отражена информация о стоимости взрослых билетов"
+        android:textColor="#008ACA"
+        android:textColorHint="#7FB0C6"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/busTicket" />
+
+    <TextView
+        android:id="@+id/busTicketChild"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="СТОИМОСТЬ ДЕТСКИХ БИЛЕТОВ:"
+        android:textColor="#008ACA"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/busTicketOut" />
+
+    <TextView
+        android:id="@+id/busTicketChildOut"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#F1EAE2"
+        android:gravity="center"
+        android:hint="Здесь будет отражена информация о стоимости детских билетов"
+        android:textColor="#008ACA"
+        android:textColorHint="#7FB0C6"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/busTicketChild" />
+
+    <TextView
+        android:id="@+id/busTicketPensioners"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="СТОЙМОСТЬ БИЛЕТОВ ДЛЯ ПЕНСИОНЕРОВ:"
+        android:textColor="#008ACA"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/busTicketChildOut" />
+
+    <TextView
+        android:id="@+id/busTicketPensionersOut"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#F1EAE2"
+        android:gravity="center"
+        android:hint="Здесь будет отражена информация о стоимости билетов для пенсионеров"
+        android:textColor="#008ACA"
+        android:textColorHint="#7FB0C6"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/busTicketPensioners" />
+
+    <TextView
+        android:id="@+id/busTicketTotal"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="СТОИМОСТЬ ВСЕХ БИЛЕТОВ:"
+        android:textColor="#008ACA"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/busTicketPensionersOut" />
+
+    <TextView
+        android:id="@+id/busTicketTotalOut"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#F1EAE2"
+        android:gravity="center"
+        android:hint="Здесь будет отражена информация о стоимости всех билетов"
+        android:textColor="#008ACA"
+        android:textColorHint="#7FB0C6"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/busTicketTotal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
